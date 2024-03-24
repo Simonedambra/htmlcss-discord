@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* inizio header primo layout*/
+
+header {
+    padding: 20px;
+}
+
+.container1 {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.cal-10 {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: calc(100%/4);
+    p
+}
+
+.cal-20 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: calc(100%/4 * 2);
+
+}
+
+li {
+    color: white;
+
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+
+
+
+
+li {
+    display: inline;
+    list-style: none;
+    margin: 0px 20px;
+
+}
+
+.center {}
+
+/* fine header primo layout */
+/* inizio secondo layout */
+.background-blue {
+    width: 100%;
+}
+
+.container-2 {
+    width: calc(100%/2);
+    height: 250px;
+
+}
+
+/* fine secondo layout */
+
+/* inizio classi base */
+.container {
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.border {
+    border: 2px dashed black;
+}
+
+.margin {
+    margin: 40px 0px;
+}
+
+/* fine classi di base */
+
+/* inizio terzo-quarto-quinto layout */
+.cal-60 {
+    width: 60%;
+    height: 250px;
+}
+
+.cal-40 {
+    width: 40%;
+    height: 250px;
+}
+
+/* fine terzo-quarto-quinto layout */
+/* inizio sesto layout */
+.cal-green {
+    height: 600px;
+    width: 100%;
+}
+
+/* fine sesto layout */
+/* inizio settimo layout */
+.cal-75 {
+    width: calc(100%/6);
+    height: 400px;
+}
+
+.cal-70 {
+    width: calc(100%/6*2);
+    height: 400px;
+}
+
+/* fine settimo layout */
+/* inizio ottavo layout */
+.cal-15 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+}
+
+.text {
+    vertical-align: middle;
+    width: ;
+    height: 24px;
+}
+
+/* fine ottavo layout */
+
+/* class di colori */
+.bg-lightskyblue {
+    background-color: lightskyblue;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-violet {
+    background-color: rgb(208, 0, 208);
+}
+
+.bg-darkblue {
+    background-color: darkblue;
+}
+
+.bg-blue {
+    background-color: rgb(0, 85, 244);
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-darkpink {
+    background-color: palevioletred;
+}
+
+.bg-lightgray {
+    background-color: lightgray;
+}
+
+.bg-greensea {
+    background-color: rgb(10, 121, 116);
+}
+
+.bg-orange {
+    background-color: rgb(233, 154, 6);
+}
+
+.bg-greenlight {
+    background-color: rgb(136, 255, 204);
+}
+
+.bg-black {
+    background-color: rgb(40, 41, 58);
+}
+
+/* fine classi colori */

@@ -8,6 +8,7 @@
 
 header {
     padding: 20px;
+    background-color: rgba(49, 97, 224, 255);
 }
 
 .container1 {
@@ -30,10 +31,6 @@ header {
     height: 50px;
     width: calc(100%/4 * 2);
 
-}
-
-li {
-    color: white;
 
 }
 
@@ -46,6 +43,7 @@ li {
 button {
     padding: 5px 10px;
     border-radius: 20px;
+    border: none;
 }
 
 
@@ -63,13 +61,34 @@ li {
 
 /* fine header primo layout */
 /* inizio secondo layout */
-.background-blue {
-    width: 100%;
+.background-jumbo {
+    background-image: url(../img/jumbo.png);
+    background-size: contain;
 }
 
 .container-2 {
     width: calc(100%/2);
     height: 250px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+
+}
+
+.Scarica-mac {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+
+}
+
+.apri-browser {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(40, 41, 58);
+    color: #fff;
+    margin: 20px 20px;
 
 }
 
@@ -80,6 +99,14 @@ li {
     max-width: 1200px;
     margin: auto;
 
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.font {
+    font-size: 20PX;
 }
 
 .row {
@@ -103,12 +130,13 @@ li {
 /* inizio terzo-quarto-quinto layout */
 .cal-60 {
     width: 60%;
-    height: 250px;
+    height: 450px;
+    background-size: contain;
 }
 
 .cal-40 {
     width: 40%;
-    height: 250px;
+    height: 450px;
 }
 
 /* fine terzo-quarto-quinto layout */
